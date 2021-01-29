@@ -29,6 +29,7 @@ class CalculatorViewController: UIViewController {
         
         //Make the button that triggered the IBAction selected.
         sender.isSelected = true
+        billTextField.endEditing(true)
         
         //Get the current title of the button that was pressed.
         let buttonTitle = sender.currentTitle!
